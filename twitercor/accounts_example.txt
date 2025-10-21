@@ -1,0 +1,18 @@
+# Приклад файлу з акаунтами для завантаження
+# Формат: username:password:email:auth_token:ct0:proxy
+# Проксі є опційним (можна залишити порожнім)
+
+# Приклад 1: З проксі
+testuser1:password123:test1@email.com:auth_token_here:ct0_token_here:http://user:pass@proxy1.com:8080
+
+# Приклад 2: Без проксі  
+testuser2:password456:test2@email.com:auth_token_here:ct0_token_here:
+
+# Приклад 3: З іншим проксі
+testuser3:password789:test3@email.com:auth_token_here:ct0_token_here:socks5://user:pass@proxy2.com:1080
+
+# Коментарі починаються з #
+# Порожні рядки ігноруються
+
+# Реальні дані (замініть на свої):
+# RealUser1:RealPass1:real1@email.com:8d1f71e63cc5d066f816aad83286b3a751e14428:619164659e2567538068260f1d5bba782fa943ff1f85836b10f35e756afc236b8d8aa096dc2685a0eaa1c4bb2e9d8851e561aab1a05e284eb66275c0d8866c8e70d9b0022047496142ed32b4c9ac367f:http://user:pass@proxy.com:8080
